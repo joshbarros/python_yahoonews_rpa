@@ -1,0 +1,15 @@
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip>=22.0
+  - pip:
+    - rpaframework
+    - pandas
+    - selenium
+    - urllib3
+    - openpyxl
+    - requests
+    - beautifulsoup4
+    - lxml
+    - pillow
